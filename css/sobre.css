@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: no-repeat center/cover url('../imgs/backgroundSobre.jpg');
+    height: 100%;  
+}
+
+.interface{
+    max-width:  1288px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #142426;
+    height: 40px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    /* box-shadow: 0px 2px;   */
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.sobre h2 {
+    text-align: center;
+    color: white;
+}
+
+.suspenso-menu{
+    position: absolute;
+    background-color: #142426;
+    box-shadow: 0 0 2px rgb(247, 242, 242); 
+    display: none;
+    /* margin-top: 10px; */
+}
+
+.suspenso-menu a{
+    display: block;
+    color: rgb(243, 236, 236);
+    /* margin-bottom: 10px; */
+}
+
+.suspenso:hover .suspenso-menu{
+    display: block;
+
+}
+
+
+
+
+section.card-box h2 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+p{
+    color: white;
+    text-align:center;
+    margin-top: 10px;
+    text-align: justify;
+} 
+
+.sobre{ 
+    background-color: rgb(20, 36, 38, 0.9);
+    width: 700px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.cards .flex{
+    padding: 40px 10%;
+    gap: 60px ;
+}
+
+
+section.card-box {
+    background-color: rgb(20, 36, 38, 0.9);
+    text-align: center;
+    width: 340px;
+    padding: 30px;
+    margin-top: 45px;
+    box-shadow: 0 0 10px 2px rgb(20, 36, 38);
+
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+footer{
+    padding: 10px 4%;
+    background-color: #142426;
+}
+
+footer .flex{
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .linha-footer{
+    padding: 20px 0;
+    border-bottom: 5px solid #505361;
+}
+
+footer .texto p {
+    text-align: end;    
+}
+
+#logo{
+    width: 200px;
+}
+
+
+.redes-sociais img{
+    width: 40px;   
+}
+
+.redes-sociais a:nth-child(1),
+.redes-sociais a:nth-child(2) {
+  margin-right: 40px; 
+}
+
+@media screen and (max-width: 850px){
+    .cards .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul{
+        display: none;
+    }
+    h2 {
+        font-size: 18px;
+    }
+
+     p{
+        font-size: 14px;
+    }
+
+    .sobre{
+        padding: 20px;
+        margin: 0 20px 0 20px;
+    }
+    section.card-box{
+        width: 280px;
+    }
+    #logo{
+        width: 140px;
+    }
+    .redes-sociais img{
+        width: 30px;   
+    }
+    .redes-sociais a:nth-child(1),
+    .redes-sociais a:nth-child(2) {
+        margin-right: 20px; 
+    }
+    footer .texto p {
+         font-size: 12px;   
+    }
+
+}
