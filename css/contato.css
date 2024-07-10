@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+#titulo{
+    color:white;
+}
+
+body{
+    min-height: 
+}
+
+form{
+    margin:0 150px 0 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+.grupo{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: #142426;
+    border-radius: 10px;
+    width: 100%;
+    padding: 40px;
+}
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    text-align: start;
+    margin: 20px 80px 20px 80px;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color:white;
+}
+
+
+.campo input{
+        margin-top: 5px;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+}
+    
+
+
+.campo select option{
+    padding:5px;
+}
+ #escolhaumassunto{
+    padding:5px;
+ }
+    
+
+.botao button{
+    border:none;
+    background-color: white;
+    padding: 10px 30px;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botao button:hover{
+    background-color: #2c4d4f;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#motivodocontato{
+      width: 800px;  /* Define a largura do campo de texto */
+      height: 200px; /* Define a altura do campo de texto */
+      resize: both; /* Permite o redimensionamento */
+      padding: 10px; /* Adiciona um preenchimento interno */
+      font-size: 30px;
+}
