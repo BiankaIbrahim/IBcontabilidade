@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
 }
 
 
@@ -11,16 +12,15 @@
 }
 
 body{
-    min-height: 
+    height: 100%;
 }
 
 form{
-    margin:0 150px 0 150px;
+    margin: 200px 200px 100px 200px;
     display: flex;
     justify-content: center;
     align-items: center;  
 }
-
 
 .grupo{
     display: flex;
@@ -31,6 +31,7 @@ form{
     width: 100%;
     padding: 40px;
 }
+
 input, select, textarea, button{
     border-radius: 5px;
 }
@@ -38,25 +39,22 @@ input, select, textarea, button{
 .campo {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1.1rem;
     text-align: start;
-    margin: 20px 80px 20px 80px;
+    margin: 15px 80px 15px 80px;
 }
 
 .campo label{
-    margin-bottom: 0.2em;
+    margin-bottom: 5px;
     color:white;
 }
 
-
 .campo input{
-        margin-top: 5px;
-        border: none;
-        border-radius: 5px;
-        padding: 5px 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+padding: 5px 10px;
 }
     
-
 
 .campo select option{
     padding:5px;
@@ -84,9 +82,30 @@ input, select, textarea, button{
 }
 
 #motivodocontato{
-      width: 800px;  /* Define a largura do campo de texto */
-      height: 200px; /* Define a altura do campo de texto */
-      resize: both; /* Permite o redimensionamento */
-      padding: 10px; /* Adiciona um preenchimento interno */
-      font-size: 30px;
+      width: 100%; 
+      min-height: 100px;   
+}
+
+@media screen and (max-width: 1020px){
+    form{
+        margin: 200px 100px 200px 100px; 
+    }
+}
+
+@media screen and (max-width: 850px){
+    form{
+        margin: 100px 80px 100px 80px; 
+    }
+
+    .campo {
+        margin: 15px 5px 15px 5px;
+    }
+
+    #titulo{
+        font-size: 11px;
+    }
+
+    .campo label{
+        font-size: 14px;
+    }
 }
