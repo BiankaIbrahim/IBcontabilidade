@@ -42,7 +42,7 @@
  }
 
  header{
-   background: no-repeat center/cover  url(imgs/backgroundInicio.jpeg);
+   background: no-repeat center/cover  url('/imgs/backgroundInicio.jpeg');
    height: calc(100vh - 200px);
 
  }
