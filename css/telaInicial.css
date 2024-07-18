@@ -6,94 +6,40 @@
     font-weight: 700;
   }
 
-  body{
-    background-color: aliceblue;
-   width: 100vw;
 
-
-  }
+  
  a {
     text-decoration: rgb(15, 15, 15);
    color: rgb(239, 246, 246);
  }
  
 
- ul{
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    align-items: center;
-    margin: 40px 0 150px 0;
-    font-size: 19px;
-    
-
-
- }
-
-   h3{
-   color: rgb(255, 255, 255);
-  
-
-
-   }
  h2{
     color: rgb(255, 255, 255);
     margin-top: 30px;
  }
 
- header{
-   background: no-repeat center/cover  url('/imgs/backgroundInicio.jpeg');
-   height: calc(100vh - 200px);
-
- }
-  .headerPrincipal{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 50px;
-    align-items: center;
-  }
-
-  .Logo img{
-  
-  width: 200px;
-  height: 100px;
-  margin-top: 30px;
-  }
-  
-  .suspenso-menu{
-    position: absolute;
-    background-color: #142426;
-    box-shadow: 0 0 2px rgb(247, 242, 242); 
-    display: none;
-    /* margin-top: 10px; */
+ .titulo1{
+  margin: 150px 0px 20px 50px;
+  color: black;
+  font-size: 28px;
 }
 
-.suspenso-menu a{
-    display: block;
-    color: rgb(243, 236, 236);
-    /* margin-bottom: 10px; */
-}
-
-.suspenso:hover .suspenso-menu{
-    display: block;
-
-}
-
-
-h4{
-  color: white;
-  margin-left: 50px;
+.especialidade{
+  color: rgb(0, 0, 0);
+  margin:15px 0px 20px 50px;
   font-size: 28px;
   
-
 }
+
+
 button{
   margin-left: 50px;
   font-size: 20px;
   padding: 15px 40px 15px 40px;
   border-radius: 50px;
   background: #142426;
-  color: white;
+  color: rgb(255, 255, 255);
   margin-top: 20px;
   box-shadow: 0 0 10px 2px rgb(20, 36, 38);
 }
@@ -115,29 +61,43 @@ button{
   
   
 }
-.coluna1, .coluna2{
-  background-color: rgb(20, 36, 38, 0.9);
-    backdrop-filter: blur(10px);
-    width: 500px;
-    border-radius: 30px;
-    height: 600px;
-    text-align: center;
-    box-shadow: 0 0 10px 2px rgb(20, 36, 38);
 
-  
-}
 .serviços p {
   margin-top: 50px;
   padding-top: 80px;
   margin-bottom: 80px;
   font-size: 25px;
+  color: rgb(255, 255, 255);
+
+
+}
+section.card-box h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  
+}
+
+.cards .flex{
+  padding: 40px 10%;
+  gap: 60px ;
+}
+
+section.card-box {
+  background-color: rgb(20, 36, 38, 0.9);
+  backdrop-filter: blur(10px);  
+  text-align: center;
+  width: 340px;
+  padding: 30px;
+  margin-top: 45px;
+
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+p{
   color: white;
+  margin-top: 10px;
+} 
 
-}
-
-.textoInicio{
-  animation: blinkCursor 500ms infinite normal;
-}
 
 @keyframes blinkCursor {
   from{

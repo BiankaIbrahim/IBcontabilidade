@@ -5,62 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IBcontabilidade</title>
     <link rel="stylesheet" href="css/telaInicial.css">
+    <link rel="stylesheet" href="css/headerFooter.css">
 </head>
 <main>
     <body>
-        <header>
-            <div class="headerPrincipal">
+            <header class="header"> 
+                <a href="#"><img src="imgs/LogoIB.png" id="logo-header" alt=""></a> 
                 
-                <div class="Logo">      
-                    <img src="imgs/LogoIB.png" alt="">
-                </div>
+                <input type="checkbox" id="check">
+                <label for="check" class="icons">
+                    <img src="imgs/menu.png" id="btn-menu" alt="">
+                    <img src="imgs/fechar (1).png" id="btn-fechar">
+                </label>
                 
-                <div class="tituloHeader">
-                    <h2>
-                        IBcontabilidade
-                    </h2>
-                    <h3>
-                        Consultoria e Serviços Contábeis
-                    </h3>
-                </div>
-            </div>    
-            
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">Início</a>
-                    </li>
-                    <li class="suspenso">
-                        <a href="sobre.html">IBcontabilidade</a>
-                        
-                        <div class="suspenso-menu">
-                            <a href="sobre.html">Sobre a Empresa</a>
-                            <a href="trabalheConosco.html">Trabalhe Conosco</a>
-                        </div>
-                        
-                    </li>
-                    <li>
-                        <a href="#anchor">Serviços</a>
-                    </li>
-                    <li>
-                        <a href="contato.html">Contato</a>
-                    </li>
-                </ul>
-            </nav>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li class="suspenso"><a href="">IBcontabilidade</a>
+                            <div class="suspenso-menu">
+                                <a href="sobre.html">Sobre a Empresa</a>
+                                <a href="trabalheConosco.html">Trabalhe Conosco</a>
+                            </div>
+                        </li>
+                        <li><a href="index.html#anchor">Serviços</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
             <div class="textoInicio">
                 
-                <h4>
+                <h4 class="titulo1">
                     Melhor Planejamento, Menos Impostos, Mais Lucros.
             
                 </h4>
                 
-                <h4>
+                <h4 class="especialidade">
                     Somos Especialistas em Contabilidade, Departamento Pessoal e Tributos.
                 </h4>
             </div>
             
             <button>
-                Fale com um Especialista
+                <li><a href="contato.html">Fale com um especialista</a></li>
             </button>
         </header> 
     </main>
@@ -68,21 +53,71 @@
     <h2 class="ajuda">
         Como podemos te ajudar?
     </h2>
-    <h3 class="sobajuda">
-   Cada uma das opções abaixo abre um leque de serviços <br> sob medida para a necessidade de sua empresa.
-    </h3>
     <div  id="anchor" class="serviços">
-        <div class="coluna1">
-        <p>
-            Constituição de empresas       <br><br><br><br><br>           Escrituração Contabil  <br><br><br> <br><br>    Recursos Humanos
-        </p>
+        
     </div>
-    <div class="coluna2">
 
-        <p>
-            Escrituração Contabil   <br><br><br><br><br>     Serviços Contabeis      <br><br><br><br><br>    Tributário Empresarial
-        </p>
+    <div class="cards">
+        <div class="interface">
+           <div class="flex">
+               <section class="card-box">
+                       <h2>Constituição de empresas</h2  >
+                       <p>Estabelecer legalmente uma entidade empresaria.</p>  
+               </section>
+               
+               <section class="card-box">
+                   <h2>Escrituração Contabil</h2>
+                   <p>Registro sistemático e cronológico de todos os fatos contábeis que ocorrem.</p>
+               </section>
+               
+               <section class="card-box">
+                   <h2>Recursos Humanos</h2>
+                   <p>Cuidar de questões legais e trabalhistas, garantindo que a empresa esteja em conformidade com as leis e regulamentos vigentes.</p>
+               </section>
+           </div>   
+           </div>
+       </div>
+
+
+    
+    <div class="cards">
+        <div class="interface">
+           <div class="flex">
+               <section class="card-box">
+                       <h2>Tributário Empresarial</h2  >
+                       <p>Apuração e o pagamento de tributos, o planejamento tributário para otimizar a carga fiscal, o cumprimento das obrigações acessórias, e a interpretação e aplicação da legislação tributária.</p>  
+               </section>
+               
+               <section class="card-box">
+                   <h2>Serviços Contabeis</h2>
+                   <p>Garantir a conformidade com as leis e regulamentos, fornecer informações precisas para a tomada de decisões e manter a saúde financeira da empresa.</p>
+               </section>
+           </div>   
+           </div>
+       </div>
+      <footer>
+        <div class="interface">
+            <div class="linha-footer">
+                <div class="flex">
+                    <div class="logo-footer">  
+                        <img src="imgs/LogoIB.png" alt="" id="logo">
+                    </div>
+                    
+                    <div class="contatos-footer">
+                        <div class="redes-sociais">
+                            <a href=""><img src="imgs/instagram (1).png" alt="" class="redes"></a>
+                            <a href=""><img src="imgs/whatsapp (1).png" alt="" class="redes"></a>
+                            <a href=""><img src="imgs/o-email (3).png" alt="" class="redes"></a>
+                        </div>
+                </div>
+            </div>
         </div>
-      </div>  
+        
+        
+         <div class="texto">
+                <p>©2024 IBcontabilidade. <br> Todos os direitos reservados.</p>
+        </div>  
+    </div>
+        </footer>
 </body>
 </html>
