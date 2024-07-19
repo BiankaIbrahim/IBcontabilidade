@@ -104,7 +104,12 @@ footer .linha-footer{
     border-bottom: 5px solid #505361;
 }
 
+footer .texto{
+    color: white;
+}
+
 footer .texto p {
+    margin-top: 5px;
     text-align: end;    
 }
 
@@ -113,7 +118,7 @@ footer .texto p {
 }
 
 .redes-sociais img{
-    width: 40px;   
+    width: 35px;   
 }
 
 .redes-sociais a:nth-child(1),
@@ -147,7 +152,7 @@ footer .texto p {
 } 
 
 .redes-sociais img{
-    width: 30px;   
+     
 }
 
 .redes-sociais a:nth-child(1),
@@ -246,7 +251,7 @@ footer .texto p {
     }
 
     .redes-sociais img{
-        width: 20px;   
+        width: 25px;   
     }
     .redes-sociais a:nth-child(1),
     .redes-sociais a:nth-child(2) {

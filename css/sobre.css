@@ -6,11 +6,6 @@
     font-weight: 700;
 }
 
-body{
-    background: no-repeat center/cover url('/imgs/backgroundSobre.jpg');
-    height: 100%;  
-}
-
 .sobre h2 {
     text-align: center;
     color: white;
@@ -26,11 +21,10 @@ p{
     color: white;
     text-align:center;
     margin-top: 10px;
-    text-align: justify;
 } 
 
 .sobre{ 
-    background-color: rgb(20, 36, 38, 0.9);
+    background-color: #142426;
     backdrop-filter: blur(10px);
     width: 700px;
     padding: 20px 50px;
@@ -44,7 +38,7 @@ p{
 }
 
 section.card-box {
-    background-color: rgb(20, 36, 38, 0.9);
+    background-color: #142426;
     backdrop-filter: blur(10px);  
     text-align: center;
     width: 340px;
