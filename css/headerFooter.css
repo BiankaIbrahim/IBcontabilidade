@@ -151,10 +151,6 @@ footer .texto p {
     width: 200px;
 } 
 
-.redes-sociais img{
-     
-}
-
 .redes-sociais a:nth-child(1),
 .redes-sociais a:nth-child(2) {
   margin-right: 40px; 
@@ -257,8 +253,12 @@ footer .texto p {
     .redes-sociais a:nth-child(2) {
         margin-right: 20px; 
     }
+
     footer .texto p {
          font-size: 10px;   
-    }   
-
+    }  
+    
+    footer{
+        padding: 50px; 
+    }
 }

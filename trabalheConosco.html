@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/headerFooter.css">
     <link rel="stylesheet" href="css/trabalheConosco.css">
+    <script src="js/bancoTrabalheConosco.js" defer ></script>
     <title>Trabalhe Conosco</title>
 </head>
 <body>
     <header class="header"> 
-        <a href="#"><img src="imgs/LogoIB.png" id="logo-header" alt=""></a> 
+        <a href="#"><img src="imgs/LogoIB.png" id="logo-header"></a> 
         
         <input type="checkbox" id="check">
         <label for="check" class="icons">
-            <img src="imgs/menu.png" id="btn-menu" alt="">
+            <img src="imgs/menu.png" id="btn-menu">
             <img src="imgs/fechar (1).png" id="btn-fechar">
         </label>
         
@@ -33,7 +34,7 @@
     </header>
     
     
-    <form>
+    <form id="form">
         <div class="grupo">
             <div>
                 <h1>Trabalhe Conosco</h1>
@@ -42,30 +43,29 @@
             </div>
 
             <div class="grupo-campos">
-
                 <div class="campo">
                     <label for="Nome">Nome:</label>
-                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
             </div>
 
             <div class="campo">
                 <label for="Sobrenome">Sobrenome:</label>
-                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" required>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome">
             </div>
 
             <div class="campo">
                 <label for="numero">Celular:</label>
-                <input type="tel" name="numero" id="numero" placeholder="(xx)xxxxx-xxxx" required>
+                <input type="tel" name="numero" id="celular" placeholder="(xx)xxxxx-xxxx">
             </div>
             
             <div class="campo">
                 <label for="">Email:</label>
-                <input type="email" name="email" id="email" placeholder="Digite seu sobrenome" required>
+                <input type="email" name="email" id="email" placeholder="Digite seu sobrenome">
             </div>
 
             <div class="campo">
                 <label for="">LinkedIn:</label>
-                <input type="text" name="linkedin" id="linkedin" placeholder="Digite o link do seu LinkedIn" required>
+                <input type="text" name="linkedin" id="linkedin" placeholder="Digite o link do seu LinkedIn">
             </div>
 
             <div class="campo" id="upload-container">
@@ -75,7 +75,7 @@
         </div>
             
             <div class="botao">
-                <button type="submit">Enviar</button>
+                <button type="submit" id="enviar">Enviar</button>
             </div >
         </div>
         </form>
@@ -103,6 +103,6 @@
                 <p>©2024 IBcontabilidade. <br> Todos os direitos reservados.</p>
         </div>  
     </div>
-</footer>  
+</footer> 
 </body>    
 </html>
